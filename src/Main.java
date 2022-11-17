@@ -1,5 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("This is my first JAVA Application!");
+        String str = GetStringToPrint();
+        PrintStringToConsole(str);
+    }
+
+    private static void PrintStringToConsole(String str) {
+        System.out.println(str);
+    }
+
+    private static String GetStringToPrint() {
+        return "This is my first Java Program";
     }
 }
